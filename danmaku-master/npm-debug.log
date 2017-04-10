@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\软件开发\\node.js\\node.exe',
+1 verbose cli   'D:\\软件开发\\node.js\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle danmaku@0.0.0~prestart: danmaku@0.0.0
+6 silly lifecycle danmaku@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle danmaku@0.0.0~start: danmaku@0.0.0
+8 verbose lifecycle danmaku@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle danmaku@0.0.0~start: PATH: D:\软件开发\node.js\node_modules\npm\bin\node-gyp-bin;D:\web前端开发\弹幕系统\danmaku-master\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\QuickTime\QTSystem\\;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;D:\Rational_Rose\Rational文件\Common；C:\Users\Asus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.6\Python 3.6 (32-bit);D:\软件开发\;D:\软件开发\node.js\;;C:\Program Files (x86)\Java\jdk1.8.0_101\bin;C:\Program Files (x86)\Java\jdk1.8.0_101\jre\bin;C:\Users\Asus\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Asus\AppData\Local\Programs\Python\Python36-32\;C:\Users\Asus\AppData\Roaming\npm
+10 verbose lifecycle danmaku@0.0.0~start: CWD: D:\web前端开发\弹幕系统\danmaku-master
+11 silly lifecycle danmaku@0.0.0~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 silly lifecycle danmaku@0.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle danmaku@0.0.0~start: Failed to exec start script
+14 verbose stack Error: danmaku@0.0.0 start: `node ./bin/www`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (D:\软件开发\node.js\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (D:\软件开发\node.js\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid danmaku@0.0.0
+16 verbose cwd D:\web前端开发\弹幕系统\danmaku-master
+17 error Windows_NT 6.3.9600
+18 error argv "D:\\软件开发\\node.js\\node.exe" "D:\\软件开发\\node.js\\node_modules\\npm\\bin\\npm-cli.js" "start"
+19 error node v6.10.0
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error danmaku@0.0.0 start: `node ./bin/www`
+22 error Exit status 1
+23 error Failed at the danmaku@0.0.0 start script 'node ./bin/www'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the danmaku package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node ./bin/www
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs danmaku
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls danmaku
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
