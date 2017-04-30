@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     2017/4/29 9:25:11                            */
+/* Created on:     2017/4/30 8:59:52                            */
 /*==============================================================*/
 
 
@@ -8,7 +8,7 @@ drop table if exists class;
 
 drop table if exists danmu;
 
-drop table if exists manager;
+drop table if exists teacher;
 
 drop table if exists user;
 
@@ -18,7 +18,7 @@ drop table if exists user;
 create table class
 (
    classid              varchar(80) not null,
-   maaccount            varchar(32),
+   teacherid            varchar(32),
    classname            varchar(80),
    primary key (classid)
 );
@@ -36,13 +36,13 @@ create table danmu
 );
 
 /*==============================================================*/
-/* Table: manager                                               */
+/* Table: teacher                                               */
 /*==============================================================*/
-create table manager
+create table teacher
 (
-   maaccount            varchar(32) not null,
-   mapassword           varchar(200),
-   primary key (maaccount)
+   teacherid            varchar(32) not null,
+   teacherpwd           varchar(200),
+   primary key (teacherid)
 );
 
 /*==============================================================*/
@@ -56,8 +56,8 @@ create table user
    primary key (userid)
 );
 
-alter table class add constraint FK_exists foreign key (maaccount)
-      references manager (maaccount) on delete restrict on update restrict;
+alter table class add constraint FK_exists foreign key (teacherid)
+      references teacher (teacherid) on delete restrict on update restrict;
 
 alter table danmu add constraint FK_corresponding foreign key (classid)
       references class (classid) on delete restrict on update restrict;
