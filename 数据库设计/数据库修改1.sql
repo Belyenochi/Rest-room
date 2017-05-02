@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      MySQL 5.0                                    */
-/* Created on:     2017/4/30 8:59:52                            */
+/* Created on:     2017/4/30 9:17:27                            */
 /*==============================================================*/
 
 
@@ -42,6 +42,7 @@ create table teacher
 (
    teacherid            varchar(32) not null,
    teacherpwd           varchar(200),
+   teachername          varchar(32),
    primary key (teacherid)
 );
 
