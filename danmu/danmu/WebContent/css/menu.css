@@ -1,0 +1,90 @@
+    #header{
+      background-color: #007FFF;
+      }
+      #my-menu-fancy{
+      margin: 25px 25px 25px 25px;
+      }
+      #welcome{
+      position: fixed;
+      top: 25px;
+      right: 25px;
+      }
+      #my-menu2{
+      position: fixed;
+      top: 25px;
+      right: 150px;
+      }
+      #danmu{
+        padding: 20px;
+        background-color: #E8E8E8;
+        height: 65px;
+      }
+      #msg{
+      	border-radius:5px; 
+        width: 800px;
+        height: 65px;
+        
+      }
+      #send{
+        position: relative;
+        top: -25px;
+      }
+      #my-menu3{
+        position: relative;
+        top: -25px;
+      }
+      #my-menu4{
+        position: relative;
+        top: -25px;
+      }
+      #my-menu5{
+        position: relative;
+        top: -25px;
+      }
+      #person{
+        position: relative;
+        right: -1580px;
+        top: -25px;
+      }
+      .submenu{
+        position: relative;
+        right: -187px;
+      }
+      .menu{
+        list-style:none;
+        position: fixed;
+        right: 40px;
+        top: 6px;
+        padding: 0px;
+      }
+      .menu li{
+        width: 80px;
+        text-align: center;
+        width: 100px;
+        border: 2px solid #666666;
+        color: #000000;
+        background-color: #F7EACF;
+      }
+      .inhide{
+        display: none;
+      }
+      .ico_down{
+        float: top;
+        width: 0;
+        height: 0;
+        border: 10px solid transparent ;
+        border-top-color:#B0B0B0 ;
+        position: fixed;
+        right: 46px;
+        top: 52px;
+        }
+        #c2{
+          background:#f1f1f1;
+        }
+        .container3{
+          margin:0 auto;
+          width:800px;
+        }
+        #c2{
+          border:1px solid black;
+        } 

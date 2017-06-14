@@ -4,7 +4,7 @@
 /*==============================================================*/
 
 
-drop table if exists "Sensitive keyword";
+drop table if exists keyword;
 
 drop table if exists class;
 
@@ -15,9 +15,9 @@ drop table if exists teacher;
 drop table if exists user;
 
 /*==============================================================*/
-/* Table: "Sensitive keyword"                                   */
+/* Table: keyword                                               */
 /*==============================================================*/
-create table "Sensitive keyword"
+create table  keyword
 (
    keyword              varchar(32) not null,
    primary key (keyword)
